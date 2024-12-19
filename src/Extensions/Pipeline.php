@@ -1,13 +1,13 @@
 <?php
 
-namespace MoonlyDays\LaravelPipelinesExceptTheyreCooler;
+namespace MoonlyDays\LaravelExtensions\Extensions;
 
 use Closure;
-use Illuminate\Pipeline\Pipeline;
+use Illuminate\Pipeline\Pipeline as BasePipeline;
 use Illuminate\Support\Arr;
 use Throwable;
 
-class CoolerPipeline extends Pipeline
+class Pipeline extends BasePipeline
 {
     /**
      * The parameters that will be sent alongside the passable object.

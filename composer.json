@@ -1,6 +1,6 @@
 {
-    "name": "moonlydays/laravel-pipelines-except-theyre-cooler",
-    "description": "Adds a with method to pipelines in Laravel",
+    "name": "moonlydays/laravel-extensions",
+    "description": "Some opinionated extensions I made for myself that are too small to justify its own package",
     "type": "library",
     "require": {
         "illuminate/support": "^11.36",
@@ -12,7 +12,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "MoonlyDays\\LaravelPipelinesExceptTheyreCooler\\": "src/"
+            "MoonlyDays\\LaravelExtensions\\": "src/"
         }
     },
     "authors": [
@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MoonlyDays\\LaravelPipelinesExceptTheyreCooler\\CoolerPipelineServiceProvider"
+                "MoonlyDays\\LaravelExtensions\\LaravelExtensionsServiceProvider"
             ]
         }
     }
